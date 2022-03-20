@@ -1,0 +1,90 @@
+.mainTitle{
+    text-align: center;
+}
+
+body{
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.col-2 {
+    width: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.winner-head{
+    color: #00560B;
+    font-weight: bold;
+}
+
+.winner-card{
+    background-color: #D6F7D7;
+    border-radius: 3px;
+    border-spacing: 5px 10px;
+    border: 1px solid black;
+    color: black;
+    width: 40px;
+    height: 80px;
+}
+
+.td-card{
+    width: 40px;
+    height: 80px;
+    background-color: #E8E8E8;
+    border-radius: 3px;
+    border-spacing: 5px 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 5px 10px;
+    text-align: center;
+}
+
+/* th, td{
+    
+} */
+
+.spacer{
+    height: 10px;
+    border: none;
+}
+
+
+
+.b-red{
+    border-radius: 8px;
+    margin-top: 10px;
+    border-color: #f44336;
+    background-color: #f44336;
+    font-size: 16px;
+}
+
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+
+.input[type=number] {
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+

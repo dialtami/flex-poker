@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flip.css">
+
+    
+</head>
+
+<body>
+    <script src="js/gameManager.js" type="module"></script>
+
+    <div class="container">
+        <div class="mainTitle">
+            <h2>PÓKER</h2>
+            <label for="numPlayers" id="upText">Ingrese la cantidad de Jugadores:</label><br><br>
+            <input type="number" class="input" id="numPlayers" name="numPlayers" placeholder="Número de manos"><br>
+            <button class="b-red" id="generate-game-button">Generar</button>
+
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2" id="col-primera">
+                <div class="tableContainer">
+                    <table>
+                        <thead></thead>
+                        <tbody id="manos-tabla"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-2" id="col-segunda">
+                <div class="tableContainer2">
+                    <table>
+                        <thead></thead>
+                        <tbody id="manos-tabla2"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    
+    
+</body>
+
+</html>
