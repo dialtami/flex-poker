@@ -20,8 +20,4 @@ export default class mano{
     sortt(){
         sort(this)
     }
-
-    checkHand(){
-        return checkHand()
-    }
 };

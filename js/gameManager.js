@@ -2,6 +2,7 @@ import createMazo from "./mazo.js";
 import mano from "./mano.js";
 import decideWin from "./decideWin.js";
 import printHands from "./printHands.js";
+import checkHand from "./checkHand.js";
 
 function startGame(num_players){
     let mazo = createMazo()
@@ -16,7 +17,7 @@ function startGame(num_players){
 
     let i = 0
     manos.forEach(hand => {  
-        let items = hand.checkHand(hand)
+        let items = checkHand(hand)
         hand.lvl = items[0]
         hand.max = items[1]
         hand.combo = items[2]
